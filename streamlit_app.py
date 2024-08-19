@@ -29,7 +29,7 @@ df = load_data()
 genres = st.multiselect(
     "Genres",
     df.genre.unique(),
-    df2[Name],
+    df2[Anuradha Tai Chavan, Suhas Shirsath, Vijay Autade, Bhagwan Bapu Ghadamode, Kalyaan Kale, Vilas Autade, Vishwas Autade, Jagannath Kale, Sandeep Borse, Varun Pathrikar, Rajendra Thombre, Kishor Balande, Ramesh Pawar],
 )
 
 # Show a slider widget with the years using `st.slider`.
