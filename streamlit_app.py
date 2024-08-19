@@ -19,6 +19,7 @@ st.write(
 @st.cache_data
 def load_data():
     df = pd.read_csv("data/movies_genres_summary.csv")
+    df2=pd.read_csv("data/can.csv")
     return df
 
 
@@ -28,7 +29,7 @@ df = load_data()
 genres = st.multiselect(
     "Genres",
     df.genre.unique(),
-    ["Action", "Adventure", "Biography", "Comedy", "Drama", "Horror"],
+    df2[Name],
 )
 
 # Show a slider widget with the years using `st.slider`.
