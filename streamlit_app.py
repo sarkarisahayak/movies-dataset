@@ -29,7 +29,8 @@ df = load_data()
 genres = st.multiselect(
     "Genres",
     df.genre.unique(),
-        ["Action", "Adventure", "Biography", "Comedy", "Drama", "Horror"],
+        ["Anuradha Tai Chavan", "Suhas Shirsath", "Vijay Autade", "Bhagwan Bapu Ghadamode", "Kalyaan Kale", "Vilas Autade", "Vishwas Autade", "Jagannath Kale", "Sandeep Borse", "Varun Pathrikar", "Rajendra Thombre", "Kishor Balande", "Ramesh Pawar"]
+,
 
 )
 
