@@ -29,7 +29,7 @@ df = load_data()
 options = st.multiselect(
     "enter names",["Anuradha Tai Chavan", "Suhas Shirsath", "Vijay Autade", "Bhagwan Bapu Ghadamode", "Kalyaan Kale", 
                   "Vilas Autade", "Vishwas Autade", "Jagannath Kale", "Sandeep Borse", "Varun Pathrikar", 
-                  "Rajendra Thombre", "Kishor Balande", "Ramesh Pawar"],
+                  "Rajendra Thombre", "Kishor Balande", "Ramesh Pawar"],)
 
 
 
